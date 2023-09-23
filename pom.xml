@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.217.27.159:8081/repository/tesla-releases/</url>
+	      <url>http://13.48.130.225:8081/repository/DNB-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.217.27.159:8081/repository/tesla-snapshots/</url>
+	      <url>http://13.48.130.225:8081/repository/DNB-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>DNB</finalName>
 		
 		<plugins>
 			<plugin>
